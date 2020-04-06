@@ -12,7 +12,7 @@
         <mark key="." line="29" column="19" />
         <mark key="^" line="29" column="21" />
       </file>
-      <file name="/Python Console" timestamp="1586055271917">
+      <file name="/Python Console" timestamp="1586177392010">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/test/venv/main.py" timestamp="1549617790748">
@@ -142,12 +142,12 @@
         <mark key="." line="21" column="39" />
         <mark key="^" line="21" column="39" />
       </file>
-      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586174345839">
-        <mark key="'" line="15" column="33" />
-        <mark key="[" line="65" column="49" />
-        <mark key="]" line="65" column="50" />
-        <mark key="^" line="31" column="16" />
-        <mark key="." line="65" column="50" />
+      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586178511885">
+        <mark key="'" line="77" column="49" />
+        <mark key="[" line="77" column="52" />
+        <mark key="]" line="77" column="49" />
+        <mark key="^" line="77" column="49" />
+        <mark key="." line="77" column="49" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/study/main3.py" timestamp="1581489230471">
         <mark key="[" line="0" column="0" />
@@ -175,10 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="25" filename="$USER_HOME$/PycharmProjects/study/main3.py" />
-      <jump line="9" column="2" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/PycharmProjects/study/main3.py" />
-      <jump line="52" column="3" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="10" column="0" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="73" column="4" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="48" column="16" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
@@ -275,34 +271,38 @@
       <jump line="57" column="49" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="22" column="34" filename="$USER_HOME$/QT/BMSPYQT1/mainui.py" />
       <jump line="15" column="33" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="50" column="17" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="13" column="32" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="77" column="49" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NS5RdFNxbCBpbXBvcnQgCg==</text>
+        <text encoding="base64">Z2cK</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>self.i</text>
       </register>
       <register name="/" type="4">
-        <text>badk</text>
+        <text>tab3</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLkY9bXlGaWd1cmUod2lkdGg9MyxoZWlnaHQ9MixkcGk9MTAwKQogICAgICAgIHNlbGYuRi5wbG90ZzIoKQogICAgICAgIHNlbGYuZ3JpZExheW91dD1RR3JpZExheW91dChzZWxmLmdyb3VwQm94MikKICAgICAgICBzZWxmLmdyaWRMYXlvdXQuYWRkV2lkZ2V0KHNlbGYuRikK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmluaXRkYXRhYmFzZSgpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NS5RdFNxbCBpbXBvcnQgCg==</text>
+        <text encoding="base64">Z2cK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NSBpbXBvcnQgUXRTcWwK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnJlc2l6ZShzZWxmLikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NQo=</text>
+        <text encoding="base64">ZnJvbSBQeVF0NS5RdFNxbCBpbXBvcnQgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBQeVF0NSBpbXBvcnQgUXRTcWwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBQeVF0NQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -314,16 +314,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0PW5wLmFyYW4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>badk</last-search>
+      <last-search>tab3</last-search>
       <last-offset />
-      <last-pattern>badk</last-pattern>
+      <last-pattern>tab3</last-pattern>
       <last-replace>1</last-replace>
       <last-substitute>app</last-substitute>
       <last-dir>1</last-dir>
@@ -331,7 +331,6 @@
     </search>
     <history>
       <history-search>
-        <entry>app</entry>
         <entry>bar</entry>
         <entry>win1</entry>
         <entry>QApp</entry>
@@ -351,6 +350,7 @@
         <entry>signal</entry>
         <entry>sing</entry>
         <entry>badk</entry>
+        <entry>tab3</entry>
       </history-search>
       <history-cmd>
         <entry>s/t/-/g</entry>
