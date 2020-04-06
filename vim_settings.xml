@@ -142,12 +142,12 @@
         <mark key="." line="21" column="39" />
         <mark key="^" line="21" column="39" />
       </file>
-      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586178511885">
-        <mark key="'" line="77" column="49" />
-        <mark key="[" line="77" column="52" />
-        <mark key="]" line="77" column="49" />
-        <mark key="^" line="77" column="49" />
-        <mark key="." line="77" column="49" />
+      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586179758161">
+        <mark key="'" line="2" column="86" />
+        <mark key="[" line="85" column="28" />
+        <mark key="]" line="85" column="29" />
+        <mark key="." line="85" column="29" />
+        <mark key="^" line="83" column="42" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/study/main3.py" timestamp="1581489230471">
         <mark key="[" line="0" column="0" />
@@ -175,10 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
-      <jump line="73" column="4" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
-      <jump line="48" column="16" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
-      <jump line="37" column="27" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="40" column="22" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="60" column="41" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="10" column="35" filename="$USER_HOME$/PycharmProjects/study/main3.py" />
@@ -265,7 +261,6 @@
       <jump line="33" column="28" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="28" column="24" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="65" column="0" filename="$USER_HOME$/QT/BMSPYQT1/main.py" />
-      <jump line="1" column="59" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="41" column="34" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="4" column="31" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="57" column="49" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
@@ -275,43 +270,48 @@
       <jump line="0" column="0" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="13" column="32" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="77" column="49" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="87" column="7" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="88" column="8" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="82" column="57" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="1" column="29" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="2" column="86" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Z2cK</text>
+      <register name="&quot;" type="4">
+        <text>setColumnHidden</text>
       </register>
       <register name="-" type="4">
-        <text>self.i</text>
+        <text>setColumnHidden</text>
       </register>
       <register name="/" type="4">
-        <text>tab3</text>
+        <text>Item</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmluaXRkYXRhYmFzZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgaiBpbiByYW5nZSg1KToKICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnNldENvbHVtbkhpZGRlbihqLDUwKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Z2cK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnNldEl0ZW0oMCwgMCwgUVRhYmxlV2lkZ2V0SXRlbSgn5bqP5Y+3JykpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnJlc2l6ZShzZWxmLikK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnNlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NS5RdFNxbCBpbXBvcnQgCg==</text>
+        <text encoding="base64">ICAgICAgICBpPTA7IGo9MDsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NSBpbXBvcnQgUXRTcWwK</text>
+        <text encoding="base64">Z2cK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBQeVF0NQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhYmxlV2lkZ2V0LnJlc2l6ZShzZWxmLikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBQeVF0NS5RdFNxbCBpbXBvcnQgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBQeVF0NSBpbXBvcnQgUXRTcWwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBQeVF0NQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -321,9 +321,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tab3</last-search>
+      <last-search>Item</last-search>
       <last-offset />
-      <last-pattern>tab3</last-pattern>
+      <last-pattern>Item</last-pattern>
       <last-replace>1</last-replace>
       <last-substitute>app</last-substitute>
       <last-dir>1</last-dir>
@@ -331,7 +331,6 @@
     </search>
     <history>
       <history-search>
-        <entry>bar</entry>
         <entry>win1</entry>
         <entry>QApp</entry>
         <entry>Moda</entry>
@@ -351,6 +350,7 @@
         <entry>sing</entry>
         <entry>badk</entry>
         <entry>tab3</entry>
+        <entry>Item</entry>
       </history-search>
       <history-cmd>
         <entry>s/t/-/g</entry>
