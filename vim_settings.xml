@@ -141,8 +141,8 @@
         <mark key="." line="21" column="39" />
         <mark key="^" line="21" column="39" />
       </file>
-      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586148782196">
-        <mark key="'" line="4" column="31" />
+      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586168066418">
+        <mark key="'" line="57" column="49" />
         <mark key="[" line="65" column="49" />
         <mark key="]" line="65" column="50" />
         <mark key="^" line="31" column="16" />
@@ -168,7 +168,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="70" column="34" filename="$USER_HOME$/PycharmProjects/study/main2.py" />
       <jump line="15" column="28" filename="$USER_HOME$/PycharmProjects/study/main2.py" />
       <jump line="58" column="14" filename="$USER_HOME$/PycharmProjects/study/main1.py" />
       <jump line="7" column="25" filename="$USER_HOME$/PycharmProjects/study/main3.py" />
@@ -268,6 +267,7 @@
       <jump line="1" column="59" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="41" column="34" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
       <jump line="4" column="31" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
+      <jump line="57" column="49" filename="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
