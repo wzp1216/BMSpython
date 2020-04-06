@@ -141,12 +141,12 @@
         <mark key="." line="21" column="39" />
         <mark key="^" line="21" column="39" />
       </file>
-      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586137290305">
+      <file name="$USER_HOME$/QT/BMSPYQT1/mymaniwin.py" timestamp="1586148782196">
         <mark key="'" line="4" column="31" />
-        <mark key="[" line="15" column="47" />
-        <mark key="]" line="16" column="39" />
-        <mark key="^" line="16" column="39" />
-        <mark key="." line="16" column="39" />
+        <mark key="[" line="65" column="49" />
+        <mark key="]" line="65" column="50" />
+        <mark key="^" line="31" column="16" />
+        <mark key="." line="65" column="50" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/study/main3.py" timestamp="1581489230471">
         <mark key="[" line="0" column="0" />
@@ -271,7 +271,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLkY9bXlGaWd1cmUod2lkdGg9MyxoZWlnaHQ9MixkcGk9MTAwKQogICAgICAgIHNlbGYuRi5wbG90ZzIoKQogICAgICAgIHNlbGYuZ3JpZExheW91dD1RR3JpZExheW91dChzZWxmLmdyb3VwQm94MikKICAgICAgICBzZWxmLmdyaWRMYXlvdXQuYWRkV2lkZ2V0KHNlbGYuRikK</text>
       </register>
       <register name="-" type="4">
         <text>1</text>
@@ -280,7 +280,7 @@
         <text>badk</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAjc2VsZi5ncm91cEJveDMucmVzaXplKHNlbGYubWF4d2lkdGgvMi00MCxzZWxmLm1heGhlaWdodC8yLTQwKQogICAgICAgIHNlbGYuZ3JvdXBCb3g0LnJlc2l6ZShzZWxmLm1heHdpZHRoLzItNDAsc2VsZi5tYXhoZWlnaHQvMi00MCkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLkY9bXlGaWd1cmUod2lkdGg9MyxoZWlnaHQ9MixkcGk9MTAwKQogICAgICAgIHNlbGYuRi5wbG90ZzIoKQogICAgICAgIHNlbGYuZ3JpZExheW91dD1RR3JpZExheW91dChzZWxmLmdyb3VwQm94MikKICAgICAgICBzZWxmLmdyaWRMYXlvdXQuYWRkV2lkZ2V0KHNlbGYuRikK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
