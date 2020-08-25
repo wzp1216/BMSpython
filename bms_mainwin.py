@@ -47,25 +47,25 @@ class bms_mainwindow(QMainWindow):
         self.mystatusBar.showMessage("BMS software is ready")
     
     def add_mywidget(self):
-        #add tab_top
+        #下面是用splitter实现
         self.tab_top=QTabWidget(self)
         self.tab1=tab_vol()
         self.tab2=tab_tmp()
         self.tab_top.addTab(self.tab1,"电池电压")
         self.tab_top.addTab(self.tab2,"电池温度")
-        #add dlg_draw
+
         self.tab_down=QTabWidget(self)
         self.mydraw=dlg_draw(self)
         self.tab_down.addTab(self.mydraw,"动态数据")
 
-        #layout
-        toplayout=QVBoxLayout()
-        toplayout.addWidget(self.tab_top)
-        self.tab_top.move(10,30)
+        self.mysplitter=QSplitter(0x02,self)
+        self.mysplitter.addWidget(self.tab_top)
+        self.mysplitter.addWidget(self.tab_down)
+        self.mysplitter.move(10,30)
+        self.mysplitter.resize(self.maxwidth-50,self.maxheight-50)
         self.tab_top.resize(self.maxwidth-50,self.maxheight/2-50)
-        toplayout.addWidget(self.tab_down)
-        self.tab_down.move(10,self.maxheight/2)
         self.tab_down.resize(self.maxwidth-50,self.maxheight/2-50)
+
 
     def About(self):
         QMessageBox.about(self,"About","浙江省科技厅项目\n动力锂离子电池在储能系统中再利用的关键技术研究\n主持单位：浙江工业职业技术学院\nEMAIL：wzp1216@163.com")
