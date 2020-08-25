@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# BMS  dlg_draw  show the voltage of battery;
+
 import sys
 import serial
 import serial.tools.list_ports
@@ -7,37 +10,25 @@ from PyQt5.QtCore import QTimer
 from ui_demo_1 import Ui_Form
 
 
-class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
+class tab_com(QtWidgets.QWidget,Ui_Form):
     def __init__(self):
-        super(Pyqt5_Serial, self).__init__()
+        super().__init__()
         self.setupUi(self)
-        self.init()
-        self.setWindowTitle("串口数据查看")
+        self.myinit()
         self.ser = serial.Serial()
         self.port_check()
 
-        # 接收数据和发送数据数目置零
-        # self.data_num_received = 0
-        # self.lineEdit.setText(str(self.data_num_received))
-        # self.data_num_sended = 0
-        # self.lineEdit_2.setText(str(self.data_num_sended))
-
-    def init(self):
+    def myinit(self):
         # 串口检测按钮
         self.s1__box_1.clicked.connect(self.port_check)
-
         # 串口信息显示
         self.s1__box_2.currentTextChanged.connect(self.port_imf)
-
         # 打开串口按钮
         self.open_button.clicked.connect(self.port_open)
-
         # 关闭串口按钮
         self.close_button.clicked.connect(self.port_close)
-
         # 发送数据按钮
         self.s3__send_button.clicked.connect(self.data_send)
-
         # 定时发送数据
         self.timer_send = QTimer()
         self.timer_send.timeout.connect(self.data_send)
@@ -106,6 +97,10 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
         self.close_button.setEnabled(False)
         self.lineEdit_3.setEnabled(True)
         # 接收数据和发送数据数目置零
+        self.data_num_received = 0
+        self.lineEdit.setText(str(self.data_num_received))
+        self.data_num_sended = 0
+        self.lineEdit_2.setText(str(self.data_num_sended))
         self.formGroupBox1.setTitle("串口状态（已关闭）")
 
     # 发送数据
@@ -155,10 +150,6 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
                 # 串口接收到的字符串为b'123',要转化成unicode字符串才能输出到窗口中去
                 self.s2__receive_text.insertPlainText(data.decode('utf-8'))
 
-            # 统计接收字符的数量
-            self.data_num_received += num
-            self.lineEdit.setText(str(self.data_num_received))
-
             # 获取到text光标
             textCursor = self.s2__receive_text.textCursor()
             # 滚动到底部
@@ -183,10 +174,3 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
 
     def receive_data_clear(self):
         self.s2__receive_text.setText("")
-
-
-if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)
-    myshow = Pyqt5_Serial()
-    myshow.show()
-    sys.exit(app.exec_())
