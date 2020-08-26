@@ -1,19 +1,8 @@
 
 
 
-winmain;
+please run bmsmain.py
 
-menu;
-
-status bar;
-
-tab widget;
-
-
-chart draw;
-
-write and read  the setting;
-
-QSQLITE
+need:  PYQT5   lib;
 
 
