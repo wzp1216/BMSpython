@@ -4,7 +4,7 @@ from PyQt5.QtCore import QRect
 from PyQt5.QtWidgets import *
 from tab_vol import tab_vol
 from tab_tmp import tab_tmp
-#from dlg_draw import dlg_draw
+from dlg_draw import dlg_draw
 from tab_com import tab_com
 
 
@@ -59,8 +59,7 @@ class bms_mainwindow(QMainWindow):
 
 
         self.tab_down=QTabWidget(self)
-        #self.mydraw=dlg_draw(self)
-        self.mydraw=tab_com();
+        self.mydraw=dlg_draw(self)
 
         self.tab_down.addTab(self.mydraw,"动态数据")
 
