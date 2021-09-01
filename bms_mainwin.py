@@ -4,7 +4,7 @@ from PyQt5.QtCore import QRect
 from PyQt5.QtWidgets import *
 from tab_vol import tab_vol
 from tab_tmp import tab_tmp
-from dlg_draw import dlg_draw
+#from dlg_draw import dlg_draw
 from tab_com import tab_com
 
 
@@ -52,14 +52,16 @@ class bms_mainwindow(QMainWindow):
         self.tab_top=QTabWidget(self)
         self.tab1=tab_vol()
         self.tab2=tab_tmp()
-        self.tab3=tab_com()
+        self.tab3=tab_com();
         self.tab_top.addTab(self.tab1,"电池电压")
         self.tab_top.addTab(self.tab2,"电池温度")
         self.tab_top.addTab(self.tab3,"串口通信")
 
 
         self.tab_down=QTabWidget(self)
-        self.mydraw=dlg_draw(self)
+        #self.mydraw=dlg_draw(self)
+        self.mydraw=tab_com();
+
         self.tab_down.addTab(self.mydraw,"动态数据")
 
         self.mysplitter=QSplitter(0x02,self)
