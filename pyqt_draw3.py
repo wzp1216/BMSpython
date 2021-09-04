@@ -56,7 +56,7 @@ class main(QWidget):
         label1=QLabel("test the pyqtgraph")
         layout=QVBoxLayout()
         layout.addWidget(label1)
-        layout.addWidget(self.plt1)
+        layout.addWidget(self.plt2)
         layout.addWidget(self.plt2)
         self.setLayout(layout)
 
