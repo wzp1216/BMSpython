@@ -17,7 +17,7 @@ rand2=random.randint(0,100)
 vol=[3.5, 3.8, 3.6, 3.7,3.9,3.6,3.8,3.5]
 checked=[True,True,True,True,True,True,True,True]
 class dlg_qt_draw(QWidget):
-    def __init__(self):
+    def __init__(self,parent=None):
         super(dlg_qt_draw, self).__init__()
         self.draw2()
         self.initui()
@@ -30,10 +30,15 @@ class dlg_qt_draw(QWidget):
 
         self.x=500
         self.plt2.setRange(xRange=[0,self.x],yRange=[0,5],padding=0)
-        self.dat0=array.array('d')
-        self.dat1=array.array('d')
+        self.dat0=[array.array('d'),array.array('d'),array.array('d'),array.array('d'),array.array('d'),array.array('d'),array.array('d'),array.array('d')]
         self.curve0=self.plt2.plot(pen='y')
         self.curve1=self.plt2.plot(pen='r')
+        self.curve2=self.plt2.plot(pen='b')
+        self.curve3=self.plt2.plot(pen='g')
+        self.curve4=self.plt2.plot(pen='y')
+        self.curve5=self.plt2.plot(pen='r')
+        self.curve6=self.plt2.plot(pen='b')
+        self.curve7=self.plt2.plot(pen='g')
 
 
     def update(self):
@@ -49,12 +54,21 @@ class dlg_qt_draw(QWidget):
         rand1 = random.randint(0, 1800)
         rand2 = random.randint(0, 100)
 
-        if len(self.dat0)<self.x:
-            self.dat0.append(vol[0])
-        else:
-            self.dat0[:-1]=self.dat0[1:]
-            self.dat0[-1]=vol[0]
-        self.curve0.setData(self.dat0)
+        for i in range(8):
+            if len(self.dat0[i])<self.x:
+                self.dat0[i].append(vol[i])
+            else:
+                self.dat0[i][:-1]=self.dat0[i][1:]
+                self.dat0[i][-1]=vol[0]
+
+        self.curve0.setData(self.dat0[0])
+        self.curve1.setData(self.dat0[1])
+        self.curve2.setData(self.dat0[2])
+        self.curve3.setData(self.dat0[3])
+        self.curve4.setData(self.dat0[4])
+        self.curve5.setData(self.dat0[5])
+        self.curve6.setData(self.dat0[6])
+        self.curve7.setData(self.dat0[7])
         idx+=1;
 
 
@@ -71,7 +85,7 @@ class dlg_qt_draw(QWidget):
         global checked
         for i in range(8):
             checked[i]=self.checkb[i].isChecked()
-            print(i,checked[i])
+            #print(i,checked[i])
 
 
 

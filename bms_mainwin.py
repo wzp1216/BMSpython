@@ -6,6 +6,7 @@ from tab_vol import tab_vol
 from tab_tmp import tab_tmp
 from dlg_draw import dlg_draw
 from tab_com import tab_com
+from dlg_qt_draw import dlg_qt_draw
 
 
 class bms_mainwindow(QMainWindow):
@@ -59,7 +60,7 @@ class bms_mainwindow(QMainWindow):
 
 
         self.tab_down=QTabWidget(self)
-        self.mydraw=dlg_draw(self)
+        self.mydraw=dlg_qt_draw(self)
 
         self.tab_down.addTab(self.mydraw,"动态数据")
 
