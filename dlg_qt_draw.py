@@ -11,7 +11,7 @@ from PyQt5.QtWidgets import QApplication, QLabel, QWidget, QPushButton, QVBoxLay
 from PyQt5.QtWidgets import QLayout
 from PyQt5.QtCore import QTimer
 
-idx=0
+#idx=0
 rand1=random.randint(0,800)
 rand2=random.randint(0,100)
 vol=[3.5, 3.8, 3.6, 3.7,3.9,3.6,3.8,3.5]
@@ -42,7 +42,7 @@ class dlg_qt_draw(QWidget):
 
 
     def update(self):
-        global idx
+        #global idx
         global rand1,rand2
         global vol
         if rand1%10==0:
@@ -50,7 +50,7 @@ class dlg_qt_draw(QWidget):
             if rand2>50:      vol[tmp]=vol[tmp]+0.01
             if rand2<5:      vol[tmp]=vol[tmp]-0.01
             if vol[tmp]>4.1:  vol[tmp]=4.1
-            if vol[tmp]<3.4:  vol[tmp]=3.4
+            #if vol[tmp]<3.4:  vol[tmp]=3.4
         rand1 = random.randint(0, 1800)
         rand2 = random.randint(0, 100)
 
@@ -59,7 +59,7 @@ class dlg_qt_draw(QWidget):
                 self.dat0[i].append(vol[i])
             else:
                 self.dat0[i][:-1]=self.dat0[i][1:]
-                self.dat0[i][-1]=vol[0]
+                self.dat0[i][-1]=vol[i]
 
         self.curve0.setData(self.dat0[0])
         self.curve1.setData(self.dat0[1])
@@ -69,8 +69,7 @@ class dlg_qt_draw(QWidget):
         self.curve5.setData(self.dat0[5])
         self.curve6.setData(self.dat0[6])
         self.curve7.setData(self.dat0[7])
-        idx+=1;
-
+        #idx+=1;
 
     def initui(self):
         self.gridlayout = QGridLayout(self)
