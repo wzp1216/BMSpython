@@ -73,16 +73,19 @@ class dlg_qt_draw(QWidget):
 
     def initui(self):
         self.gridlayout = QGridLayout(self)
-        self.gridlayout.addWidget(self.plt2, 0, 0, 9, 8)
-        self.checkb = [QCheckBox("通道1"),QCheckBox("通道2"),QCheckBox("通道3"), QCheckBox("通道4"),QCheckBox("通道5"), QCheckBox("通道6"), QCheckBox("通道7"), QCheckBox("通道8")]
-        for i in range(8):
+        self.gridlayout.addWidget(self.plt2, 0, 0, 16, 9)
+        self.checkb = [QCheckBox("通道1"),QCheckBox("通道2"),QCheckBox("通道3"), QCheckBox("通道4"),\
+            QCheckBox("通道5"), QCheckBox("通道6"), QCheckBox("通道7"), QCheckBox("通道8"),\
+                QCheckBox("通道9"),QCheckBox("通道10"),QCheckBox("通道11"), QCheckBox("通道12"),\
+                    QCheckBox("通道13"), QCheckBox("通道14"), QCheckBox("通道15"), QCheckBox("通道16")]
+        for i in range(16):
             self.gridlayout.addWidget(self.checkb[i], i,10)
             self.checkb[i].stateChanged.connect(self.check_change)
         self.setLayout(self.gridlayout)
 
     def check_change(self):
         global checked
-        for i in range(8):
+        for i in range(16):
             checked[i]=self.checkb[i].isChecked()
             #print(i,checked[i])
 

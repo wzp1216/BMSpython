@@ -23,7 +23,7 @@ class bms_mainwindow(QMainWindow):
         self.maxwidth=self.desktop.width()-100
         self.setFixedSize(self.maxwidth,self.maxheight)
         self.move(50,50)
-        self.setWindowTitle("BMS_Manage_System wzp1216@163.com")
+        self.setWindowTitle("梯次利用锂电池管理系统 BMS_Manage_System")
         
         
     def add_menu(self):
@@ -31,7 +31,7 @@ class bms_mainwindow(QMainWindow):
         menubar=self.menuBar()
         self.filemenu=menubar.addMenu("FILE")
         self.filemenu.addAction("New")
-        self.filemenu.addAction("Open")
+        self.file_open_action=self.filemenu.addAction("Open")
         self.filemenu.addAction("Save")
         self.filemenu.addAction("Save As")
         self.filemenu.addSeparator()
@@ -43,11 +43,16 @@ class bms_mainwindow(QMainWindow):
         self.actionAbout=QtWidgets.QAction("About",self)
         self.helpmenu.addAction(self.actionAbout)
         self.actionAbout.triggered.connect(self.About)
+
+        self.file_open_action.triggered.connect(self.file_open)
+
         #status bar
         self.mystatusBar=QStatusBar()
         self.setStatusBar(self.mystatusBar)
         self.mystatusBar.showMessage("BMS software is ready")
-    
+    def file_open(self):
+        fname=QFileDialog.getOpenFileName(self,'open file','.\\',"all (*.*)")
+
     def add_mywidget(self):
         #下面是用splitter实现
         self.tab_top=QTabWidget(self)
@@ -74,7 +79,7 @@ class bms_mainwindow(QMainWindow):
 
 
     def About(self):
-        QMessageBox.about(self,"About","浙江省科技厅项目\n动力锂离子电池在储能系统中再利用的关键技术研究\n主持单位：浙江工业职业技术学院\nEMAIL：wzp1216@163.com")
+        QMessageBox.about(self,"About","梯次利用锂电池管理系统\n浙江省科技厅项目\n动力锂离子电池在储能系统中再利用的关键技术研究\n主持单位：浙江工业职业技术学院\nEMAIL：wzp1216@163.com")
 
 
     def paintEvent(self, a0: QtGui.QPaintEvent) -> None:
